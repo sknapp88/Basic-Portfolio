@@ -1,0 +1,64 @@
+header {
+	height: 100px;
+	margin-top: 10px;
+}
+
+body {
+	background-image: url(../images/sunset_ship.jpg);
+	background-size: cover;
+}
+
+h1 {
+	float: left;
+	margin-left: 40px;
+	margin-top: 10px;
+	padding: 10px;
+	background: teal;
+}
+
+h2 {
+	color: teal;
+	background-color: #a27157;
+	width: 200px;
+	padding-left: 20px;
+	border: solid;
+	border-color: #a27157;
+	border-radius: 5px;
+}
+
+nav {
+	float: right;
+	margin-top: 25px;
+	margin-right: 50px;
+}
+
+footer {
+	text-align: center;
+	font-size: 12px;
+}
+
+#profile {
+	height: 100px;
+	width: 100px;
+}
+
+#about-me {
+	width: 1000px;
+	margin-left: 100px;
+	padding: 15px;
+	background-color: #fff;
+}
+
+#social-links {
+	float: left;
+	margin-right: 80px;
+}
+
+#content-divider {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: solid;
+	border-radius: 2px;
+	border-width: 5px;
+	border-color: teal;
+}
