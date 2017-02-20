@@ -1,40 +1,61 @@
 header {
+	width: 110%;
 	height: 100px;
-	margin-top: 10px;
+	margin-top: -10px;
+	margin-left: -10px;
+	background-color: #fff;
+	border-bottom: solid;
+	border-bottom-color: #ccc;
 }
 
 body {
-	background-image: url(../images/sunset_ship.jpg);
-	background-size: cover;
+	background-image: url(../images/white_parchment_paper_wallpaper_texture_seamless.jpg);
+	background-size: 2000px;
 }
 
 h1 {
 	float: left;
 	margin-left: 40px;
-	margin-top: 10px;
-	padding: 10px;
-	background: teal;
+	margin-top: 0px;
+	background: #4aaaa5;
+	background-size: 100px;
+	padding: 32px 10px 31px 10px;
+	border-bottom: solid;
+	border-bottom-color: #ccc;
 }
 
 h2 {
-	color: teal;
-	background-color: #a27157;
+	color: #4aaaaf;
 	width: 200px;
 	padding-left: 20px;
-	border: solid;
-	border-color: #a27157;
-	border-radius: 5px;
+}
+
+h3 {
+	padding-top: 0px;
 }
 
 nav {
 	float: right;
 	margin-top: 25px;
-	margin-right: 50px;
+	margin-right: 200px;
+}
+
+li {
+	display: inline;
 }
 
 footer {
 	text-align: center;
+	margin-left: -10px;
 	font-size: 12px;
+	position: absolute;
+    bottom: 0;
+    width: 110%;
+    height: 100px;
+    border-top: solid;
+    border-top-color: #4aaaaf;
+    border-width: 5px;
+    background: #666;
 }
 
 #profile {
@@ -43,15 +64,18 @@ footer {
 }
 
 #about-me {
-	width: 1000px;
+	width: 700px;
 	margin-left: 100px;
 	padding: 15px;
 	background-color: #fff;
 }
 
 #social-links {
-	float: left;
+	float: right;
 	margin-right: 80px;
+	background-color: #fff;
+	width: 152px;
+	padding-top: 0px;
 }
 
 #content-divider {
@@ -60,5 +84,5 @@ footer {
 	border: solid;
 	border-radius: 2px;
 	border-width: 5px;
-	border-color: teal;
+	border-color: #4aaaa5;
 }
