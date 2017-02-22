@@ -83,6 +83,18 @@ input {
 	width: 100px;
 }
 
+#grid-display {
+	width: 300px;
+}
+
+#grid-display a img {
+	padding: 10px 15px 10px 15px;
+}
+
+#grid-display img:hover {
+	opacity: 0.5;
+}
+
 #background {
 	margin-top: 15px;
 	width: 960px;
