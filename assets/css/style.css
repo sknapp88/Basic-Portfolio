@@ -87,7 +87,7 @@ input {
 	width: 300px;
 }
 
-#grid-display a img {
+#grid-displayh a img {
 	padding: 10px 15px 10px 15px;
 }
 
@@ -112,6 +112,7 @@ input {
 	padding: 15px;
 	background-color: #fff;
 }
+
 
 #social-links {
 	float: right;
